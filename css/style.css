@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Eater&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *  {
     box-sizing: border-box;
 }
@@ -11,6 +11,8 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     background-color: #7349AC;
+    /* background: linear-gradient(120deg, #7349AC, #8657c9); */
+    font-family: "Ubuntu";
 }
 
 .letters {
@@ -87,10 +89,10 @@ body {
 }
 
 .game-message {
-    background: #fa6701;
-    border: 3px solid white;
+    background: rgb(255 255 255 / .15);
+    border: 4px solid #F96600;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: 5px 5px 20px rgb(0 0 0 / .2);
     display: flex;
     flex-flow: column nowrap;
@@ -101,21 +103,32 @@ body {
 
 .game-message button {
     font-size: 1.5rem;
-    background: #5C3A89;
+    background: #54357d;
     color: white;
-    border: none;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 1rem;
     box-shadow: 5px 5px 20px rgb(0 0 0 / .2);
     margin-top: 0.7rem;
+    cursor: pointer;
+    font-family: "Ubuntu";
+}
+
+.game-message button:hover {
+    background: #3b2657;
+}
+
+.game-message button:active {
+    box-shadow: unset;
 }
 
 .game-message p {
     color: white;
-    font-size: 1.5rem;
-    margin: 0;
+    font-size: 1.8rem;
+    margin: 0 0 1rem 0;
 
 }
+
 
 .game-timer p {
     font-size: 2rem;
@@ -129,6 +142,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 20px rgb(255 255 255 / .1) inset;
+
 }
 
 
