@@ -1,6 +1,7 @@
 
 import { elements } from "./index.js"
-import { gameState, words, originalWords, figure } from "./gamedata.js"
+import { gameState, words, figure } from "./gamedata.js"
+import { originalWords } from "./words.js"
 
 
 function getRandomWord() {

@@ -1,11 +1,6 @@
 import { elements } from "./index.js"
+import { originalWords } from "./words.js"
 
-const originalWords = [
-    'fiskmås', 'parameter', 'osthyvel',
-    'tangentbord', 'skärmsläckare', 'fotboll',
-    'variabel', 'javascript', 'programmering',
-    'fiskpinne',
-  ];
   
   let words = [...originalWords];
   
